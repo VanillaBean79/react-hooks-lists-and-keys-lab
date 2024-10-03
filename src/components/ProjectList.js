@@ -9,6 +9,7 @@ const projectItems = projects.map((project)=>{
   key={project.id}
   name={project.name}
   about={project.about}
+  technologies={project.technologies}
 />
 })
   return (
